@@ -37,7 +37,6 @@ function imgOpenByClick(event) {
       onClose: () => document.addEventListener("keydown", closeByEsc),
     }
   );
-  console.log(instance);
   instance.show();
 
   function closeByEsc(event) {
